@@ -312,34 +312,35 @@ body::after {
   color: #bbddff;
 }
 
-/* ── HOBBIES ── */
-.hobbies-gallery {
+.EducationalBackground-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
 
-.hobby-modern {
+.EducationalBackground-modern {
   background: rgba(20,30,50,0.7);
   backdrop-filter: blur(6px);
-  padding: 1.2rem;
+  padding: 1.8rem 1.5rem;
   border-radius: 1.5rem;
   transition: 0.2s;
   border: 1px solid rgba(255,255,255,0.15);
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.2rem;
   color: #f0f3ff;
+  min-height: 110px;
 }
 
-.hobby-modern:hover {
+.EducationalBackground-modern:hover {
   background: rgba(40,60,95,0.8);
   border-color: #8aabff;
 }
 
-.hobby-icon-lg {
+.EducationalBackground-icon-lg {
   font-size: 2rem;
   width: 50px;
+  flex-shrink: 0;
   text-align: center;
 }
 
