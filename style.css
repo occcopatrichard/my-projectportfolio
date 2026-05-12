@@ -344,6 +344,18 @@ body::after {
   text-align: center;
 }
 
+@media (max-width: 900px) {
+  .EducationalBackground-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .EducationalBackground-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ── CONTACT ── */
 .contact-flex {
   display: flex;
@@ -458,3 +470,4 @@ footer {
   .hero { justify-content: center; text-align: center; }
   .hero-stats { justify-content: center; }
 }
+
