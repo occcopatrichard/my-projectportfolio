@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Richard Copat · IT Student | Modern Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<div class="container">
+  <div class="navbar">
+    <div class="logo"></i> PORTFOLIO</div>
+    <div class="nav-links">
+      <a data-section="home" class="nav-link active">Home</a>
+      <a data-section="about" class="nav-link">About</a>
+      <a data-section="skills" class="nav-link">Skills</a>
+      <a data-section="projects" class="nav-link">Projects</a>
+      <a data-section="education" class="nav-link">Educational Background</a>
+      <a data-section="contact" class="nav-link">Contact</a>
+    </div>
+  </div>
+ 
+  <!-- HOME -->
+  <section id="home-section" class="section scroll-reveal">
+    <div class="hero">
+      <div class="hero-content">
+        <div class="badge"></i> IT College Student</div>
+        <h1><span id="typed-name"></span><span class="cursor">|</span></h1>
+        <p style="font-size:1.2rem; margin-top: 0.6rem; color: #dfebff;">Crafting digital experiences, editing visuals &amp; designing futures.</p>
+        <div class="hero-stats">
+          <div class="stat-item"><strong>🎓 2nd Year</strong><br>IT Major</div>
+          <div class="stat-item"><strong>⚡ 12+</strong><br>Projects Done</div>
+          <div class="stat-item"><strong>🏆 2x</strong><br>Future Game Developer</div>
+        </div>
+        <button class="btn-modern" id="exploreWorkBtn" style="margin-top: 1.6rem;"><i class="fas fa-arrow-right"></i> Explore my work</button>
+      </div>
+      <div class="avatar-glow">
+        <img src="copat.png" style="width:100%; height:100%; object-fit:cover; object-position:center 8%; display:block;" alt="Richard Copat">
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ABOUT -->
+  <section id="about-section" class="section scroll-reveal">
+    <div class="section-title"></i> About me</div>
+    <p style="font-size:1rem; line-height:1.5; max-width: 80%; color: #eef3ff;">I'm Richard, an IT student passionate about front-end development, UI/UX, and multimedia creation. I blend coding with visual storytelling — from responsive web apps to cinematic edits. Always exploring the intersection of design and code.</p>
+    <div style="display: flex; gap: 0.8rem; margin-top: 1.3rem; flex-wrap: wrap;">
+      <span style="background:rgba(59,130,246,0.3); padding:0.3rem 1rem; border-radius: 40px; color:#eef3ff;"><i class="fas fa-check"></i> Dean's List</span>
+      <span style="background:rgba(59,130,246,0.3); padding:0.3rem 1rem; border-radius: 40px; color:#eef3ff;"><i class="fas fa-video"></i> Adobe Certified</span>
+      <span style="background:rgba(59,130,246,0.3); padding:0.3rem 1rem; border-radius: 40px; color:#eef3ff;"><i class="fab fa-figma"></i> UI/UX Enthusiast</span>
+    </div>
+  </section>
+ 
+  <!-- SKILLS -->
+  <section id="skills-section" class="section scroll-reveal">
+    <div class="section-title"></i> Core skills &amp; tools</div>
+    <div class="skills-grid">
+      <div class="skill-card-nice">
+        <div class="skill-icon"><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i></div>
+        <h3>HTML / CSS / JS</h3>
+        <div class="skill-desc-small">Modern responsive layouts, vanilla JS interactivity, Tailwind, and DOM manipulation.</div>
+      </div>
+      <div class="skill-card-nice">
+        <div class="skill-icon"><i class="fas fa-video"></i></div>
+        <h3>Video Editor</h3>
+        <div class="skill-desc-small">Premiere Pro / DaVinci Resolve — cinematic cuts, motion graphics.</div>
+      </div>
+      <div class="skill-card-nice">
+        <div class="skill-icon"><i class="fas fa-camera"></i></div>
+        <h3>Photo Editor</h3>
+        <div class="skill-desc-small">Photoshop &amp; Lightroom — retouching, compositing, visual moods.</div>
+      </div>
+      <div class="skill-card-nice">
+        <div class="skill-icon"><i class="fab fa-figma"></i></div>
+        <h3>Figma Designer</h3>
+        <div class="skill-desc-small">Wireframes, prototypes, design systems, auto-layout, and user testing.</div>
+      </div>
+    </div>
+    <div style="margin-top:1rem; background:rgba(0,0,0,0.3); border-radius:1rem; padding:0.7rem 1rem; font-size:0.85rem; color:#cddcff;"><i class="fas fa-info" style="margin-right: 10px;"></i>Additional skills: UI animations, Git/GitHub, responsive design principles.</div>
+  </section>
+ 
+  <!-- PROJECTS -->
+  <section id="projects-section" class="section scroll-reveal">
+    <div class="section-title"></i> Featured projects</div>
+    <div class="projects-grid">
+      <div class="project-item">
+        <img class="project-img" src="https://picsum.photos/id/26/400/200" alt="web project">
+        <div class="project-content"><div class="project-tag">HTML/CSS/JS</div><h3>Urban Nomad Studio</h3><p>Interactive portfolio with smooth scroll and glassmorphism.</p></div>
+      </div>
+      <div class="project-item">
+        <img class="project-img" src="https://picsum.photos/id/20/400/200" alt="video edit">
+        <div class="project-content"><div class="project-tag">Video Edit</div><h3>Retro Vibes Trailer</h3><p>Cinematic travel edit using DaVinci Resolve.</p></div>
+      </div>
+      <div class="project-item">
+        <img class="project-img" src="https://picsum.photos/id/169/400/200" alt="figma design">
+        <div class="project-content"><div class="project-tag">Figma / UI</div><h3>Fintech Dashboard</h3><p>Complete design system + interactive prototype.</p></div>
+      </div>
+      <div class="project-item">
+        <img class="project-img" src="https://picsum.photos/id/96/400/200" alt="photo edit">
+        <div class="project-content"><div class="project-tag">Photo Manipulation</div><h3>Neon Dreams series</h3><p>Composite art and color grading in Photoshop.</p></div>
+      </div>
+    </div>
+  </section>
+ 
+ <!-- EDUCATIONAL BACKGROUND -->
+<section id="education-section" class="section scroll-reveal">
+  <div class="section-title">Educational Background</div>
+  <div class="EducationalBackground-gallery">
+    <div class="EducationalBackground-modern">
+      <div class="EducationalBackground-icon-lg">🏫</div>
+      <div>
+        <strong>Bachelor of Science in Information Technology</strong><br>
+        <span>2nd Year Student — Currently Enrolled</span>
+      </div>
+    </div>
+    <div class="EducationalBackground-modern">
+      <div class="EducationalBackground-icon-lg">📘</div>
+      <div>
+        <strong>Senior High School — ICT Strand</strong><br>
+        <span>Graduated with Honors</span>
+      </div>
+    </div>
+    <div class="EducationalBackground-modern">
+      <div class="EducationalBackground-icon-lg">🏆</div>
+      <div>
+        <strong>Dean's List Awardee</strong><br>
+        <span>Consistent academic excellence.</span>
+      </div>
+    </div>
+    <div class="EducationalBackground-modern">
+      <div class="EducationalBackground-icon-lg">🎓</div>
+      <div>
+        <strong>Adobe Certified</strong><br>
+        <span>Certified in Adobe Creative Suite tools.</span>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+  <!-- CONTACT -->
+  <section id="contact-section" class="section scroll-reveal">
+    <div class="section-title"></i> Let's connect</div>
+    <div class="contact-flex">
+      <div class="contact-card">
+        <p><i class="fas fa-envelope"></i> occ.copatrichard@gmail.com</p>
+        <p style="margin-top:0.6rem;"><i class="fas fa-map-marker-alt"></i> Opol Poblacion</p>
+        <div class="social-group">
+          <a href="#" class="social-icon-circle"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon-circle"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon-circle"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon-circle"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div style="margin-top: 1rem;">✨ Open for freelance / collaboration / internships</div>
+      </div>
+      <div class="contact-card">
+        <div class="input-group"><input type="text" id="contactNameV2" placeholder="Your name"></div>
+        <div class="input-group" style="margin-top:0.8rem;"><input type="email" id="contactEmailV2" placeholder="Your email"></div>
+        <div class="input-group" style="margin-top:0.8rem;"><textarea rows="3" id="contactMsgV2" placeholder="Project idea, feedback, or just say hi..."></textarea></div>
+        <button class="btn-modern" id="sendMsgBtnV2" style="margin-top:0.8rem;"><i class="fas fa-comment-dots"></i> Send message</button>
+        <div id="formFeedbackV2"></div>
+      </div>
+    </div>
+  </section>
+ 
+  <footer><i class="fas fa-crown"></i> Richard Copat · IT Student · portfolio 2026</footer>
+</div>
+ 
+<script src="script.js"></script>
+</body>
+</html>
